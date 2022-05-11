@@ -1,11 +1,11 @@
 import './App.css';
-
+import { Header, Footer, VideoListingSection } from "./component/index"
 function App() {
   return (
     <div className="App">
-      <header>
-      <h1>Social Boat</h1>
-      </header>
+      <Header />
+      <Footer />
+      <VideoListingSection />
     </div>
   );
 }
