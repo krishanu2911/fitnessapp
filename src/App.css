@@ -1,3 +1,16 @@
 .App{
     /* margin: 0; */
 }
+.videoFit{
+    border-radius: 1rem;
+    width: 100%;
+}
+.videoCard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 2px solid red;
+    width: 100%;
+    max-width: 20rem;
+    padding: 0.5rem;
+}
