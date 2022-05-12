@@ -27,6 +27,7 @@
 .searchInput{
     width: 100%;
     font-size: 1rem;
+    background-color: #fffbeb;
     border-color: transparent;
     outline: transparent;
 }
