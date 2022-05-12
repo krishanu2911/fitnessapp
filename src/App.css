@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+:root{
+    /* --primary-color:  */
+}
 .App{
+    min-height: 100vh;
+    font-family: 'Montserrat';
     background-color: #fffbeb;
-    /* margin: 0; */
 }
 .videoFit{
     border-radius: 1rem;

@@ -7,8 +7,21 @@
     flex-direction: column;
     border-radius: 1rem;
     background-color: #fef3c7;
-    border: 1px solid #fcd34d;
+    border: 1.5px solid #fcd34d;
     width: 100%;
-    max-width: 20rem;
+    max-width: 25rem;
     padding: 0.5rem;
+}
+/* Tags CSS */
+.tagDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.tag{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: fit-content;
+    background-color: #f59e0b;
+    color: #fef3c7;
 }

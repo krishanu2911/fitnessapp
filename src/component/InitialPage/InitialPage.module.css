@@ -1,0 +1,17 @@
+.mainDiv{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+.heroImg{
+    width: 100%;
+    max-width: 30rem;
+}
+.headerText{
+    text-align: center;
+}

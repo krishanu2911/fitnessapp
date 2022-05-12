@@ -6,7 +6,6 @@ function App() {
     <div className="App">
       <Header />
       <VideoListingSection />
-      <Footer />
       {/* <div className="videoCard">
         <video className="videoFit" controls>
           <source

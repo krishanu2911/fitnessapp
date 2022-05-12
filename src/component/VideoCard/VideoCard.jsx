@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./VideoCard.module.css";
+import Tags from "./Tags";
 
 function VideoCard({ videoData }) {
   const { heading, tags, video } = videoData;
@@ -12,13 +13,18 @@ function VideoCard({ videoData }) {
         src={video}
         type="video/mp4"
       />
-      <h2>{heading}</h2>
-      {/* {
+      <div style={{width:"100%"}}>
+       <h2>{heading}</h2>   
+      </div>
+      
+      <div className={`${style.tagDiv}`}>
+      {
           tags.map((item) => {
-              return <h1>{item}</h1>
+              return <Tags tagName={item} />
           })
-      } */}
-      {/* <h2>{video}</h2> */}
+      }    
+      </div>
+      
     </div>
   );
 }
