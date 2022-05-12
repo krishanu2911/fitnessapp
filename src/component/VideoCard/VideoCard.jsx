@@ -4,7 +4,6 @@ import Tags from "./Tags";
 
 function VideoCard({ videoData }) {
   const { heading, tags, video } = videoData;
-  console.log(heading, tags, video);
   return (
     <div className={`${style.videoCard}`}>
       <video

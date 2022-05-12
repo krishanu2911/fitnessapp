@@ -1,22 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
 :root{
-    /* --primary-color:  */
+    --background-color: #fffbeb;
+    --second-background-color: #fef3c7;
+    --light-color: #fcd34d;
+    --dark-color: #78350f;
 }
 .App{
     min-height: 100vh;
     font-family: 'Montserrat';
-    background-color: #fffbeb;
-}
-.videoFit{
-    border-radius: 1rem;
-    width: 100%;
-}
-.videoCard{
-    display: flex;
-    flex-direction: column;
-    border-radius: 1rem;
-    border: 2px solid red;
-    width: 100%;
-    max-width: 20rem;
-    padding: 0.5rem;
+    background-color: var(--background-color);
 }

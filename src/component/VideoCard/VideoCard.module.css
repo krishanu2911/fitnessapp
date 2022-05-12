@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
-    background-color: #fef3c7;
-    border: 1.5px solid #fcd34d;
+    background-color: var(--second-background-color);
+    border: 1.5px solid var(--light-color);
     width: 100%;
     max-width: 25rem;
     padding: 0.5rem;
@@ -22,6 +22,6 @@
     border-radius: 0.5rem;
     padding: 0.5rem;
     width: fit-content;
-    background-color: #f59e0b;
-    color: #fef3c7;
+    background-color: var(--dark-color);
+    color: var(--second-background-color);
 }

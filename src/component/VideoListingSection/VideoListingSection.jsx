@@ -1,5 +1,5 @@
 import React from "react";
-import { useQueryData } from "../../context/qureyDataContext/QueryDataContext";
+import { useQueryData } from "../../context/QueryDataContext";
 import { VideoCard, InitialPage } from "../index";
 import style from "./VideoListingSection.module.css"
 function VideoListingSection() {
