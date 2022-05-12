@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import style from "../Header/Header.module.css";
 import axios from "axios";
 import { useQueryData } from "../../context/qureyDataContext/QueryDataContext" 
-// let url = `https://asia-south1-socialboat-dev.cloudfunctions.net/assignmentVideos?q=${text}&numResults=${num}`;
 function Header() {
   const { queryData, setQueryData } = useQueryData();
-  // const [queryData, setQueryData] = useState([]);
   async function inputHandler(query) {
     try {
       const res = await axios.get(
@@ -16,7 +14,6 @@ function Header() {
       console.log(error);
     }
   }
-  console.log(queryData)
   return (
     <div className={`${style.headerSection}`}>
       <div>
@@ -36,7 +33,6 @@ function Header() {
           }}
         />
       </div>
-      {}
       <div>
         <img
           className={`${style.profile}`}

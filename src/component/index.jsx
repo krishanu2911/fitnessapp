@@ -1,8 +1,10 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import VideoListingSection from "./VideoListingSection/VideoListingSection";
+import VideoCard from "./VideoCard/VideoCard";
 export {
     Header,
     Footer,
-    VideoListingSection
+    VideoListingSection,
+    VideoCard
 }

@@ -1,10 +1,17 @@
-import React from 'react'
-
+import React from "react";
+import { useQueryData } from "../../context/qureyDataContext/QueryDataContext";
+import { VideoCard } from "../index";
+import style from "./VideoListingSection.module.css"
 function VideoListingSection() {
-    return (
-        <div>
-            <h1>VideoListingSection</h1>
-        </div>
-    )
+  const { queryData } = useQueryData();
+  console.log(queryData);
+  return (
+    <div className={`${style.listingSection}`}>
+      {
+        queryData?.map((item) => {
+          return <VideoCard videoData={item} />;
+        })}
+    </div>
+  );
 }
 export default VideoListingSection;
